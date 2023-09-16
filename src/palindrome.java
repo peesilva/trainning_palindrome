@@ -20,7 +20,7 @@ public class palindrome {
 
         int length = palavra.length();
         for (int i = 0; i < length / 2; i++) {
-            if (palavra.charAt(i) != != palavra.charAt(length - 1 - i)) {
+            if (palavra.charAt(i) != palavra.charAt(length - 1 - i)) {
                 return false;
             }
         }
